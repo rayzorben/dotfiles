@@ -343,6 +343,7 @@ spawn-at-startup "solaar" "-w" "hide"
 spawn-at-startup "firefox"
 spawn-at-startup "swww-daemon"
 spawn-at-startup "trayscale"
+spawn-at-startup "nm-applet"
 spawn-sh-at-startup "/usr/lib/polkit-kde-authentication-agent-1 &" // Polkit
 //prefer-no-csd
 

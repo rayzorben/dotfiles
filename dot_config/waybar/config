@@ -15,7 +15,6 @@
     ],
 
     "modules-center": [
-        "wlr/taskbar",
         "niri/window"
     ],
 
