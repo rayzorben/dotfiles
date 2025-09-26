@@ -344,8 +344,9 @@ spawn-at-startup "firefox"
 spawn-at-startup "swww-daemon"
 spawn-at-startup "trayscale"
 spawn-at-startup "nm-applet"
-spawn-sh-at-startup "/usr/lib/polkit-kde-authentication-agent-1 &" // Polkit
-//prefer-no-csd
+spawn-sh-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
+spawn-sh-at-startup "gnome-keyring-daemon --start --components=pkcs11,secrets,ssh"
+prefer-no-csd
 
 // Uncomment this line to ask the clients to omit their client-side decorations if possible.
 // If the client will specifically ask for CSD, the request will be honored.
