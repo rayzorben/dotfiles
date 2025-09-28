@@ -8,7 +8,7 @@ environment {
         QT_WAYLAND_DISABLE_WINDOWDECORATION "1"
         XDG_SESSION_TYPE "wayland"
         XDG_CURRENT_DESKTOP "niri"
-	EDITOR=nvim
+	EDITOR "nvim"
 }
 
 hotkey-overlay {
@@ -52,28 +52,26 @@ window-rule {
 }
 
 window-rule {
-    match title="P-SED"
-    match app-id="-Default"
+    match title="- SED -"
     open-on-workspace "sed"
     open-maximized true
 }
 
 window-rule {
-    match title="P-VIS"
-    match title="P-OCS"
-    match app-id="-Profile_1"
+    match title="- VIS -"
+    match title="- OCS -"
     open-on-workspace "vis"
     open-maximized true
 }
 
 window-rule {
-    match title="P-SBX"
+    match title="- SBX -"
     open-on-workspace "sbx"
     open-maximized true
 }
 
 window-rule {
-    match title="P-SSI"
+    match title="- SSI -"
     open-on-workspace "ssi"
     open-maximized true
 }
