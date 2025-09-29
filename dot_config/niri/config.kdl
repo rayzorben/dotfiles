@@ -53,6 +53,7 @@ window-rule {
 
 window-rule {
     match title="- SED -"
+    match app-id="-sedanos$"
     open-on-workspace "sed"
     open-maximized true
 }
@@ -60,12 +61,14 @@ window-rule {
 window-rule {
     match title="- VIS -"
     match title="- OCS -"
+    match app-id="-visionet$"
     open-on-workspace "vis"
     open-maximized true
 }
 
 window-rule {
     match title="- SBX -"
+    match app-id="-starbudks$"
     open-on-workspace "sbx"
     open-maximized true
 }
